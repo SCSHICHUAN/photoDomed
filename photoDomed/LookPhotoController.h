@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LookPhotoController.h
 //  photoDomed
 //
 //  Created by SHICHUAN on 2016/11/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 @class GrabModel;
-@interface ViewController : UIViewController
-@property(nonatomic,strong)GrabModel *model;
-
+@interface LookPhotoController : UIViewController
+@property(nonatomic,strong)NSArray *modelArray;
 @end
-

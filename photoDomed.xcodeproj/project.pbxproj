@@ -13,6 +13,12 @@
 		E3526C0F1DED820A0087934F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3526C0D1DED820A0087934F /* Main.storyboard */; };
 		E3526C111DED820A0087934F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3526C101DED820A0087934F /* Assets.xcassets */; };
 		E3526C141DED820A0087934F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3526C121DED820A0087934F /* LaunchScreen.storyboard */; };
+		E3526C1E1DED83C70087934F /* GrabCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3526C1D1DED83C70087934F /* GrabCollectionViewCell.m */; };
+		E3526C201DED83D10087934F /* GrabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3526C1F1DED83D10087934F /* GrabCollectionViewCell.xib */; };
+		E3526C271DED88E00087934F /* LookPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3526C251DED88E00087934F /* LookPhotoController.m */; };
+		E3526C281DED88E00087934F /* LookPhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3526C261DED88E00087934F /* LookPhotoController.xib */; };
+		E3526C2B1DED8ABF0087934F /* GrabModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3526C2A1DED8ABF0087934F /* GrabModel.m */; };
+		E3526C2E1DED95710087934F /* Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = E3526C2D1DED95710087934F /* Thumbnail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,16 @@
 		E3526C101DED820A0087934F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3526C131DED820A0087934F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3526C151DED820A0087934F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3526C1B1DED83A00087934F /* GrabCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrabCollectionViewCell.h; sourceTree = "<group>"; };
+		E3526C1D1DED83C70087934F /* GrabCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrabCollectionViewCell.m; sourceTree = "<group>"; };
+		E3526C1F1DED83D10087934F /* GrabCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrabCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3526C241DED88E00087934F /* LookPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookPhotoController.h; sourceTree = "<group>"; };
+		E3526C251DED88E00087934F /* LookPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookPhotoController.m; sourceTree = "<group>"; };
+		E3526C261DED88E00087934F /* LookPhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LookPhotoController.xib; sourceTree = "<group>"; };
+		E3526C291DED8AB70087934F /* GrabModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrabModel.h; sourceTree = "<group>"; };
+		E3526C2A1DED8ABF0087934F /* GrabModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrabModel.m; sourceTree = "<group>"; };
+		E3526C2C1DED956A0087934F /* Thumbnail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thumbnail.h; sourceTree = "<group>"; };
+		E3526C2D1DED95710087934F /* Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnail.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,13 @@
 		E3526C031DED820A0087934F /* photoDomed */ = {
 			isa = PBXGroup;
 			children = (
+				E3526C2C1DED956A0087934F /* Thumbnail.h */,
+				E3526C2D1DED95710087934F /* Thumbnail.m */,
+				E3526C291DED8AB70087934F /* GrabModel.h */,
+				E3526C2A1DED8ABF0087934F /* GrabModel.m */,
+				E3526C1B1DED83A00087934F /* GrabCollectionViewCell.h */,
+				E3526C1D1DED83C70087934F /* GrabCollectionViewCell.m */,
+				E3526C1F1DED83D10087934F /* GrabCollectionViewCell.xib */,
 				E3526C071DED820A0087934F /* AppDelegate.h */,
 				E3526C081DED820A0087934F /* AppDelegate.m */,
 				E3526C0A1DED820A0087934F /* ViewController.h */,
@@ -67,6 +90,9 @@
 				E3526C121DED820A0087934F /* LaunchScreen.storyboard */,
 				E3526C151DED820A0087934F /* Info.plist */,
 				E3526C041DED820A0087934F /* Supporting Files */,
+				E3526C241DED88E00087934F /* LookPhotoController.h */,
+				E3526C251DED88E00087934F /* LookPhotoController.m */,
+				E3526C261DED88E00087934F /* LookPhotoController.xib */,
 			);
 			path = photoDomed;
 			sourceTree = "<group>";
@@ -110,7 +136,7 @@
 				TargetAttributes = {
 					E3526C001DED820A0087934F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 3JXF3ZZ9G5;
+						DevelopmentTeam = HQ825P8X9U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,7 +166,9 @@
 			files = (
 				E3526C141DED820A0087934F /* LaunchScreen.storyboard in Resources */,
 				E3526C111DED820A0087934F /* Assets.xcassets in Resources */,
+				E3526C201DED83D10087934F /* GrabCollectionViewCell.xib in Resources */,
 				E3526C0F1DED820A0087934F /* Main.storyboard in Resources */,
+				E3526C281DED88E00087934F /* LookPhotoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3526C0C1DED820A0087934F /* ViewController.m in Sources */,
+				E3526C271DED88E00087934F /* LookPhotoController.m in Sources */,
 				E3526C091DED820A0087934F /* AppDelegate.m in Sources */,
+				E3526C2B1DED8ABF0087934F /* GrabModel.m in Sources */,
+				E3526C2E1DED95710087934F /* Thumbnail.m in Sources */,
+				E3526C1E1DED83C70087934F /* GrabCollectionViewCell.m in Sources */,
 				E3526C061DED820A0087934F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3JXF3ZZ9G5;
+				DEVELOPMENT_TEAM = HQ825P8X9U;
 				INFOPLIST_FILE = photoDomed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SHICHUAN.photoDomed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,8 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3JXF3ZZ9G5;
+				DEVELOPMENT_TEAM = HQ825P8X9U;
 				INFOPLIST_FILE = photoDomed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SHICHUAN.photoDomed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
